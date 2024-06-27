@@ -1,0 +1,108 @@
+body {
+    background-color: #EDEFEE;
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+article > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto; 
+    max-width: 50%;
+}
+
+article > img:hover {
+    transition: 1s;
+    transform: scale(117%);
+}
+
+main section:first-of-type article {
+    background-image: url("plant4.png");
+    background-size: 25% auto;
+    font-weight: bold;
+}
+
+div > img {
+    width: 50px;
+}
+
+nav {
+    background-color: teal;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+}
+
+a:active {
+    color: hotpink;
+}
+
+a:visited {
+    color: orange;
+}
+
+nav a{
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    text-align: justify;
+    font-size: 1.1rem;
+    padding: 2rem;
+    flex: 1;
+    background-color: white;
+    border-radius: 30px;
+    margin: 0.5rem;
+}
+
+section:not(:first-child) article {
+    background-color: wheat;
+}
+
+footer {
+    display: flex;
+    margin: 0.5rem;
+}
+
+footer div {
+    flex: 1;
+}
+
+.copyright {
+    color: darkred;
+    text-align: right;
+    border-top: 1px solid darkred;
+}
